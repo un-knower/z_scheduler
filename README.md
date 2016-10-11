@@ -9,7 +9,7 @@
 ##1.1调度
 ###1.1.0调度的几个逻辑概念
 
-![scheduler concept ](/tree/master/src/main/resources/img/1.png)
+![scheduler concept ](/src/main/resources/img/1.png)
 
 
 Job > batch> seq>task
@@ -25,7 +25,7 @@ Task 作业 | shell任务,包含多个类型shell任务,目前主要包括(数�
 ####1.1.1.1 功能介绍
 界面地址: http://10.201.48.101:8080/z_bigdata/index
  
-![project screeshot ](/tree/master/src/main/resources/img/2.png)
+![project screeshot ](/src/main/resources/img/2.png)
 
 链接|说明
 ------|------
