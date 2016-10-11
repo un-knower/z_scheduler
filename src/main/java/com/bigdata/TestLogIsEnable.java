@@ -16,5 +16,7 @@ public class TestLogIsEnable {
 
     public void  testLog(){
         log.info("hello log");
+        System.out.print("hello world");
+        System.err.println("xxxxx");
     }
 }
