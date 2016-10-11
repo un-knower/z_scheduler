@@ -9,7 +9,7 @@
 ##1.1调度
 ###1.1.0调度的几个逻辑概念
 
-![GitHub logo](/images/logo.png)
+![GitHub logo](/images/logo.png) 
 
 Job > batch> seq>task
 
