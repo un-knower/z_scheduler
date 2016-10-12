@@ -12,21 +12,21 @@
 	</welcome-file-list>
 	<!--
 	 -->
-	<servlet>
-		<servlet-name>QuartzInitializer</servlet-name>
-		<servlet-class>
-			org.quartz.ee.servlet.QuartzInitializerServlet
-		</servlet-class>
-		<init-param>
-			<param-name>config-file</param-name>
-			<param-value>/quartz.properties</param-value>
-		</init-param>
-		<init-param>
-			<param-name>shutdown-on-unload</param-name>
-			<param-value>true</param-value>
-		</init-param>
-		<load-on-startup>2</load-on-startup>
-	</servlet>
+	<!--<servlet>-->
+		<!--<servlet-name>QuartzInitializer</servlet-name>-->
+		<!--<servlet-class>-->
+			<!--org.quartz.ee.servlet.QuartzInitializerServlet-->
+		<!--</servlet-class>-->
+		<!--<init-param>-->
+			<!--<param-name>config-file</param-name>-->
+			<!--<param-value>/quartz.properties</param-value>-->
+		<!--</init-param>-->
+		<!--<init-param>-->
+			<!--<param-name>shutdown-on-unload</param-name>-->
+			<!--<param-value>true</param-value>-->
+		<!--</init-param>-->
+		<!--<load-on-startup>2</load-on-startup>-->
+	<!--</servlet>-->
 	<listener>
 		<listener-class>
 			org.apache.commons.fileupload.servlet.FileCleanerCleanup

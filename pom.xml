@@ -24,7 +24,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>z_bigdata</finalName>
+        <finalName>z_scheduler</finalName>
     </build>
     <dependencies>
         <!-- org.apache.hive hive-cli 1.1.0-cdh5.4.10
