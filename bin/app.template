@@ -1,0 +1,1 @@
+ --connect jdbc:oracle:thin:@10.201.1.1:1521:productdg --username querydata --password bigdata --verbose --table PRODUCT.PCM_CHAN_SALE --split-by SID --target-dir /user/hive/output/s06_pcm_chan_sale --hive-import --hive-overwrite --hive-database sourcedata --hive-table s06_pcm_chan_sale --hive-partition-value ${task_date} --hive-partition-key dt
