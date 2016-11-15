@@ -37,8 +37,8 @@ public class GlobalMap {
 				}finally {
 					JDBCUtils.close();
 				}
-				Map<Integer,Batch> headMap=new TreeMap<Integer,Batch>();
-				Map<Integer,Batch> tempMap=new HashMap<Integer,Batch>();
+				Map<Integer,Batch> headMap=new TreeMap<>();
+				Map<Integer,Batch> tempMap=new HashMap<>();
 				for (Batch batch : batchs) {
 					//没有头任务
 					if(batch.getBeforeid()==NO_COMPANION){
